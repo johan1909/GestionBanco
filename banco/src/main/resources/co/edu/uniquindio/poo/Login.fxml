@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="316.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="22.0" layoutY="78.0" prefHeight="296.0" prefWidth="274.0">
+         <children>
+            <Label layoutX="9.0" layoutY="38.0" prefHeight="27.0" prefWidth="105.0" text="Usuario">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="6.0" layoutY="94.0" prefHeight="27.0" prefWidth="105.0" text="Contraseña">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtUsuario" layoutX="108.0" layoutY="39.0" prefHeight="25.0" prefWidth="152.0" promptText="Ingrese el usuario" />
+            <Button fx:id="btnIngresar" layoutX="89.0" layoutY="212.0" mnemonicParsing="false" onAction="#ingresarAction" text="Ingresar">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="9.0" layoutY="154.0" prefHeight="27.0" prefWidth="105.0" text="Rol">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="comboRol" layoutX="109.0" layoutY="155.0" prefWidth="150.0" promptText="Elija el Rol" />
+            <Label fx:id="lblMensaje" alignment="CENTER" layoutX="77.0" layoutY="265.0" prefHeight="25.0" prefWidth="121.0" textFill="#d71111">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="txtContrasena" layoutX="109.0" layoutY="95.0" promptText="Ingrese la contraseña" />
+         </children>
+      </Pane>
+      <Label layoutX="29.0" layoutY="27.0" text="Banco UQ - Inicio de Sesión" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
