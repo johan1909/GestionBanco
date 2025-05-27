@@ -1,0 +1,1 @@
+Este proyecto corresponde al sistema de gestión bancaria desarrollado para la institución financiera Banco UQ. El sistema permite la administración de clientes, cuentas bancarias, transacciones, empleados y funciones administrativas, con un enfoque en seguridad, eficiencia y usabilidad.
